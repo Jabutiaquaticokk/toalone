@@ -1,0 +1,74 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 5;
+    box-sizing: border-box;
+
+--soft-blush: #ffe5ecff;
+--pastel-pink: #ffc2d1ff;
+--cherry-blossom: #ffb3c6ff;
+--cotton-candy: #ff8fabff;
+--petal-rouge: #fb6f92ff;
+--light-coral: #f08080ff;
+--sweet-salmon: #f4978eff;
+--powder-blush: #f8ad9dff;
+--peach-fuzz: #fbc4abff;
+--soft-apricot: #ffdab9ff;
+--intense-cherry: #c52233ff;
+--ruby-red: #a51c30ff;
+--brown-red: #a7333fff;
+--burgundy: #74121dff;
+--night-bordeaux: #580c1fff;
+--black: #000000ff;
+--ink-black: #0c1821ff;
+--prussian-blue: #1b2a41ff;
+--charcoal-blue: #324a5fff;
+--lavender: #ccc9dcff;
+}
+
+#galeria{
+    background-color: var(--ruby-red);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+section{
+    background-color: var(--burgundy);
+    color: aliceblue;
+    padding: 10px;
+    margin: 0;
+}
+
+div{
+    background-color: var(--night-bordeaux);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    transition: 250ms;
+}
+
+div:hover{
+    scale: 1.01;
+    box-shadow: 0px 5px 10px 1px var(--soft-blush);
+}
+
+body{
+    background-color: var(--ink-black);
+
+    
+}
+
+img{
+    transition: 250ms;
+    border-radius: 14px;
+}
+
+img:hover{
+    scale: 1.02;
+    rotate: 5deg;
+}
